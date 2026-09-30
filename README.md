@@ -7,20 +7,41 @@
   <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/purpose.png" alt="My purpose: build software that is real, connected, and open. Make time well spent, connect what is scattered, and keep next-generation software open source." width="100%">
 </picture>
 
-## Shortly, I specialize in the following
+<h2 align="center">Shortly I specialize in Following</h2>
 
-I build across the stack, from systems and developer tools to the web and native Apple apps.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/rust.svg" alt="Rust" title="Rust" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/c.svg" alt="C" title="C" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/cpp.svg" alt="C++" title="C++" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/go.svg" alt="Go" title="Go" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/ts.svg" alt="TypeScript" title="TypeScript" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/js.svg" alt="JavaScript" title="JavaScript" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/html.svg" alt="HTML" title="HTML" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/css.svg" alt="CSS" title="CSS" width="48" height="48">
+</p>
 
-| Area | Languages | What I build |
-| :--- | :--- | :--- |
-| **Deep development** | Rust · C · C++ · Go | Systems, editors, CLIs, and developer tools |
-| **Web development** | TypeScript · JavaScript · HTML · CSS | Websites, web apps, SDKs, and interactive interfaces |
-| **App development** | Swift · Objective-C · Metal | iOS and macOS apps, native UI, and graphics |
-| **Automation** | Python · Shell | Scripts, workflows, and tools that remove busywork |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/swift.svg" alt="Swift and SwiftUI" title="Swift / SwiftUI" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/objectivec.svg" alt="Objective-C" title="Objective-C" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/metal.svg" alt="Metal" title="Metal" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/py.svg" alt="Python" title="Python" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/bash.svg" alt="Shell" title="Shell" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/react.svg" alt="React" title="React" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/nextjs.svg" alt="Next.js" title="Next.js" width="48" height="48">
+  <img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/tech/threejs.svg" alt="Three.js and WebGL" title="Three.js / WebGL" width="48" height="48">
+</p>
 
-**On the interface side:** React · Next.js · SwiftUI · Three.js / WebGL · UX/UI design.
+<p align="center"><sub>Occasionally*</sub></p>
 
-**Occasionally\***, Section Four also lists **Wars Fought**, **Dragons Slayed**, **Revolutions Plotted**, **Ideas Daddy**, and **AI / ML World Takeover**. [The full list lives here.](https://www.professorvolodymyr.com/#specializations)
+<p align="center">
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/web-dev-master.svg" alt="Web Dev Master" title="Web Dev Master" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/deep-dev.svg" alt="Deep Dev" title="Deep Dev" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/wars-fought.svg" alt="Wars Fought" title="Wars Fought" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/dragons-slayed.svg" alt="Dragons Slayed" title="Dragons Slayed" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/revolutions-plotted.svg" alt="Revolutions Plotted" title="Revolutions Plotted" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/ideas-daddy.svg" alt="Ideas Daddy" title="Ideas Daddy" width="48" height="48"></a>
+  <a href="https://www.professorvolodymyr.com/#specializations"><img src="https://raw.githubusercontent.com/prophesourvolodymyr/prophesourvolodymyr/main/assets/specializations/ai-ml-world-takeover.svg" alt="AI / ML World Takeover" title="AI / ML World Takeover" width="48" height="48"></a>
+</p>
 
 <a href="https://www.professorvolodymyr.com/about-me">
   <picture>
