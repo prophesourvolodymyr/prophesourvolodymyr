@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Anton;
+  src: url(https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-C8CSKlv.woff2) format('woff2');
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: Inter;
+  src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2) format('woff2');
+  font-weight: 100 900;
+  font-display: block;
+}
+@font-face {
+  font-family: Ananda;
+  src: url(https://fonts.cdnfonts.com/s/43086/Ananda-eL1n.woff) format('woff');
+  font-weight: 400;
+  font-display: block;
+}
+:root {
+  color-scheme: dark;
+  --white: #f5f5f5;
+  --muted: #b8b8b8;
+  --space: clamp(30px, 5vw, 72px);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #161616; color: var(--white); font-family: Inter, sans-serif; }
+main { display: grid; gap: 32px; padding: 32px; justify-items: center; }
+section { position: relative; width: min(1280px, 100%); overflow: hidden; background: #000; }
+h1, h2, h3, p { margin: 0; }
+img { display: block; max-width: 100%; }
+.stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 11% 22%, #ffffff8c .8px, transparent 1.7px),
+    radial-gradient(circle at 78% 14%, #ffffff6e 1px, transparent 1.8px),
+    radial-gradient(circle at 88% 83%, #ffffff66 .8px, transparent 1.8px),
+    radial-gradient(circle at 37% 79%, #ffffff5a .7px, transparent 1.6px),
+    radial-gradient(circle at 95% 41%, #ffffff7a .7px, transparent 1.5px),
+    radial-gradient(circle at 9% 90%, #ffffff38 .6px, transparent 1.3px),
+    radial-gradient(circle at 54% 45%, #ffffff38 .5px, transparent 1.3px);
+  background-size: 291px 223px, 389px 271px, 419px 311px, 337px 367px, 487px 233px, 173px 283px, 271px 197px;
+  opacity: .7;
+}
+.purpose {
+  padding: var(--space);
+  min-height: 560px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+}
+.purpose::after, .about::after {
+  content: '';
+  position: absolute;
+  inset: auto 8% 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #ffffff52, transparent);
+}
+.purpose-copy { position: relative; z-index: 1; }
+.purpose h1 {
+  display: flex;
+  align-items: baseline;
+  gap: 22px;
+  font-family: Anton, sans-serif;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 1.4;
+  letter-spacing: .5px;
+}
+.purpose h1 span { font-family: Ananda, cursive; font-weight: 400; font-size: 111px; letter-spacing: 0; }
+.purpose .statement { margin-top: 12px; max-width: 690px; font-size: 44px; font-weight: 800; line-height: 1.16; letter-spacing: -1.3px; }
+.purpose .explanation { margin-top: 26px; max-width: 660px; font-size: 26px; line-height: 1.55; color: var(--muted); }
+.purpose-art { position: relative; z-index: 1; width: 100%; transform: rotate(-7deg); }
+.purpose-art img { width: 100%; object-fit: contain; }
+.about { min-height: 720px; padding: 54px var(--space) 60px; }
+.about h2 { position: relative; font-family: Ananda, cursive; font-size: 90px; font-weight: 400; line-height: 1.55; text-align: center; }
+.about-content { position: relative; display: grid; grid-template-columns: .87fr 1.13fr; gap: 48px; align-items: center; }
+.device-art { align-self: center; display: grid; place-items: center; }
+.device-art img { width: 100%; transform: scale(1.15); }
+.philosophy { display: grid; gap: 27px; }
+.project h3 { font-size: 34px; font-weight: 800; letter-spacing: -.8px; margin-bottom: 9px; }
+.project p { font-size: 26px; line-height: 1.52; color: var(--muted); max-width: 620px; }
+.project strong { font-weight: 500; color: #fff; }
+.button-art { width: min(960px, 100%); display: grid; gap: 24px; background: transparent; }
+.image-button {
+  isolation: isolate;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 28px 46px;
+  color: var(--white);
+  text-decoration: none;
+  background: #000;
+  border: 2px solid #373737;
+  border-radius: 999px;
+  min-height: 134px;
+  box-shadow: inset 0 1px 0 #ffffff19;
+  overflow: hidden;
+}
+.image-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(ellipse at 38% -8%, #ffffff47, transparent 51%), radial-gradient(ellipse at 88% 110%, #ffffff13, transparent 37%);
+  z-index: -1;
+}
+.image-button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 2px 1px #ffffff4f, inset -2px -1px 1px #ffffff21;
+  pointer-events: none;
+}
+.image-button .icon { display: flex; align-items: center; flex-shrink: 0; }
+.image-button svg { height: 36px; width: 36px; fill: currentColor; stroke: none; }
+.button-copy { display: grid; gap: 8px; flex: 1; }
+.button-label { font-size: 34px; font-weight: 800; letter-spacing: -.7px; }
+.button-description { font-size: 22px; color: var(--muted); }
+.image-button .arrow { margin-left: auto; display: flex; align-items: center; }
+.image-button:focus-visible { outline: 3px solid #fff; outline-offset: 6px; }
+.image-button:hover { border-color: #aaa; }
+.desktop-art { width: 1280px; }
+.mobile-art { width: 640px; }
+.purpose.mobile-art { grid-template-columns: 1fr; padding: 48px; min-height: 850px; gap: 0; }
+.purpose.mobile-art h1 { font-size: 74px; gap: 18px; line-height: 1.5; }
+.purpose.mobile-art h1 span { font-size: 90px; }
+.purpose.mobile-art .statement { font-size: 46px; line-height: 1.22; margin-top: 18px; }
+.purpose.mobile-art .explanation { font-size: 32px; line-height: 1.48; margin-top: 26px; }
+.purpose.mobile-art .purpose-art { width: 300px; justify-self: center; margin-top: 30px; }
+.about.mobile-art { padding: 36px 48px 55px; min-height: 1190px; }
+.about.mobile-art h2 { font-size: 90px; text-align: left; line-height: 1.7; }
+.about.mobile-art .about-content { grid-template-columns: 1fr; gap: 8px; }
+.about.mobile-art .device-art { width: 260px; justify-self: start; margin: -18px 0 -10px; }
+.about.mobile-art .device-art img { transform: scale(1.4); }
+.about.mobile-art .philosophy { gap: 32px; }
+.about.mobile-art .project h3 { font-size: 39px; margin-bottom: 12px; }
+.about.mobile-art .project p { font-size: 32px; line-height: 1.48; }
+.button-mobile { width: 640px; }
+.button-mobile .image-button { padding: 28px 34px; gap: 20px; min-height: 145px; }
+.button-mobile .button-label { font-size: 34px; }
+.button-mobile .button-description { font-size: 32px; line-height: 1.3; }
+.button-mobile .image-button svg { width: 34px; height: 34px; }
+.rendering main { display: block; padding: 0; }
+.rendering section { display: none; }
+.rendering section.selected { display: grid; }
+.rendering .button-art.selected { gap: 0; }
+.rendering .button-art.selected > a { display: none; }
+.rendering .button-art.selected > a.selected { display: flex; }

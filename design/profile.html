@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Professor Volodymyr | Profile artwork</title>
+<link rel="stylesheet" href="./profile.css">
+</head>
+<body>
+<main>
+<section class="purpose desktop-art" id="purpose-desktop" aria-label="My purpose">
+<div class="stars"></div>
+<div class="purpose-copy"><h1>MY <span>Purpose</span></h1><p class="statement">Build software that is<br>real, connected, and open.</p><p class="explanation">Make time well spent. Connect what is scattered.<br>Keep next-generation software open source.</p></div>
+<div class="purpose-art"><img src="../assets/chrome-purpose.png" alt="A polished silver compass"></div>
+</section>
+<section class="purpose mobile-art" id="purpose-mobile" aria-label="My purpose">
+<div class="stars"></div>
+<div class="purpose-copy"><h1>MY <span>Purpose</span></h1><p class="statement">Build software that is real, connected, and open.</p><p class="explanation">Make time well spent. Connect what is scattered. Keep next-generation software open source.</p></div>
+<div class="purpose-art"><img src="../assets/chrome-purpose.png" alt="A polished silver compass"></div>
+</section>
+<section class="about desktop-art" id="about-desktop" aria-label="About Me">
+<div class="stars"></div><h2>About Me</h2>
+<div class="about-content"><div class="device-art"><img src="../assets/chrome-devices.png" alt="A studio-chrome laptop and phone, built for web and app development"></div><div class="philosophy">
+<div class="project"><h3>Everthink</h3><p>Projects are scattered, missing features, connections, and opportunities. I build software that <strong>brings those pieces together.</strong></p></div>
+<div class="project"><h3>The Real</h3><p>Software where even the time you “waste” is time well spent. <strong>Enjoyable experiences and real-value crypto tokens,</strong> without getting glued to an ecosystem.</p></div>
+<div class="project"><h3>Open &amp; Next</h3><p>Open source is not always next-generation.<br>Next-generation is not always open source.<br><strong>I build at the intersection of both.</strong></p></div>
+</div></div>
+</section>
+<section class="about mobile-art" id="about-mobile" aria-label="About Me">
+<div class="stars"></div><h2>About Me</h2>
+<div class="about-content"><div class="device-art"><img src="../assets/chrome-devices.png" alt="A studio-chrome laptop and phone"></div><div class="philosophy">
+<div class="project"><h3>Everthink</h3><p>Projects are scattered, missing features, connections, and opportunities. I build software that <strong>brings those pieces together.</strong></p></div>
+<div class="project"><h3>The Real</h3><p>Software where even the time you “waste” is time well spent. <strong>Enjoyable experiences and real-value crypto tokens,</strong> without getting glued to an ecosystem.</p></div>
+<div class="project"><h3>Open &amp; Next</h3><p>Open source is not always next-generation. Next-generation is not always open source. <strong>I build at the intersection of both.</strong></p></div>
+</div></div>
+</section>
+<section class="button-art" id="buttons-desktop" aria-label="Explore the website"></section>
+<section class="button-art button-mobile" id="buttons-mobile" aria-label="Explore the website"></section>
+</main>
+<script src="./icons.js"></script>
+<script>
+const buttons = [
+{key:'contact',label:'Contact Me',description:'An idea, a question, a conversation.',url:'https://www.professorvolodymyr.com/contact'},
+{key:'work',label:'Work With Me',description:'Websites, apps, and design. My agency.',url:'https://www.professorvolodymyr.com/agency'},
+{key:'projects',label:'Projects',description:'Explore what I’m building.',url:'https://www.professorvolodymyr.com/projects'},
+{key:'community',label:'Join the Community',description:'Ask me about joining.',url:'https://www.professorvolodymyr.com/contact'},
+{key:'website',label:'Enter My Universe',description:'The full portfolio experience.',url:'https://www.professorvolodymyr.com/'}
+];
+for (const variant of ['desktop','mobile']) {
+const container = document.getElementById('buttons-'+variant);
+for (const button of buttons) {
+const anchor = document.createElement('a');
+anchor.className='image-button';anchor.id=button.key+'-'+variant;anchor.href=button.url;
+anchor.innerHTML='<span class="icon">'+icons[button.key]+'</span><span class="button-copy"><span class="button-label">'+button.label+'</span><span class="button-description">'+button.description+'</span></span><span class="arrow">'+icons.arrow+'</span>';
+container.append(anchor);
+}
+}
+const selection = new URL(location.href).searchParams.get('render');
+if(selection){document.body.classList.add('rendering');const element=document.getElementById(selection);if(element){element.classList.add('selected');if(element.closest('.button-art'))element.closest('.button-art').classList.add('selected')}}
+</script>
+</body>
+</html>
